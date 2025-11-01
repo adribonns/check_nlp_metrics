@@ -1,0 +1,15 @@
+[project]
+name = "nlp-metrics"
+version = "0.1.0"
+description = "Streamlit app for comparing texts using BERTScore and embedding similarity"
+authors = [{ name = "Adrien BONNEU" }]
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit",
+    "transformers",
+    "torch",
+    "sentence-transformers",
+    "bert-score",
+    "numpy",
+    "scikit-learn",
+]
